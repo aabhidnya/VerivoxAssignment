@@ -1,4 +1,4 @@
-@dsltariff
+@DSLtariff
 Feature: DSL Tariffs
   AS A Verivox user
   I WANT TO use the DSL calculator and tariff search pages
