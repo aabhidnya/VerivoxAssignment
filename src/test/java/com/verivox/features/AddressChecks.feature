@@ -21,6 +21,6 @@ Feature: Address checks
       And street names with special characters and dashes displayed correctly "<streets>"
 
     Examples: 
-      | postcode | city        | count | streets                             |
-      |    10409 | Berlin      |    29 | Küselstr,Preußstr,Erich-Weinert-Str |
-      |    77716 | Fischerbach |    33 | Gemsbühl,Fritz-Ullmann-Weg          |
+      | postcode | city        | count | streets                                |
+      |    10409 | Berlin      |    29 | Küselstr.,Preußstr.,Erich-Weinert-Str. |
+      |    77716 | Fischerbach |    33 | Gemsbühl,Fritz-Ullmann-Weg             |
